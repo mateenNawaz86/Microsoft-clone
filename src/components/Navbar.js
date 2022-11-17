@@ -8,7 +8,7 @@ import logoImg from "../assets/logo.png";
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between items-center h-16 px-3 ">
+      <div className="flex justify-between items-center h-14 px-4 md:px-8 lg:px-16">
         <div className="flex justify-between items-center space-x-3 md:order-2">
           <BsList className="text-2xl cursor-pointer md:hidden" />
           <VscSearch
@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
         <div className="flex justify-between items-center space-x-7 md:order-1">
           <img className="w-28 cursor-pointer" src={logoImg} alt="logo" />
-          <ul className="md:flex justify-between items-center bg-[#F2F2F2] inset-0 -translate-x-96 inline-block absolute w-fit md:space-x-5 md:translate-x-0  md:w-auto md:bg-white md:static">
+          <ul className="md:flex justify-between items-center bg-[#F2F2F2] inset-0 -translate-x-96 inline-block absolute w-fit md:space-x-5 md:translate-x-0  md:w-auto md:bg-white md:static text-sm">
             <li className="cursor-pointer">Microsoft 360</li>
             <li className="cursor-pointer">Office</li>
             <li className="cursor-pointer">Windows</li>
@@ -26,7 +26,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="flex justify-between items-center md:order-3 space-x-4">
+        <div className="flex justify-between items-center md:order-3 space-x-4 text-sm">
           <p className="cursor-pointer hidden md:block">All Microsoft</p>
           <VscSearch
             className=" ml-4 text-xl cursor-pointer hidden md:block"

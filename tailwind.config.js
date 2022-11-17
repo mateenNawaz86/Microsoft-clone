@@ -6,6 +6,10 @@ module.exports = {
       screens: {
         xsm: "400px",
       },
+      width: {
+        "10/13": "90%",
+        "11/13": "96%"
+      },
     },
   },
   plugins: [],
