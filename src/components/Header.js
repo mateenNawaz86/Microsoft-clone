@@ -4,7 +4,6 @@ import headerImg from "../assets/header-img.avif";
 const Header = () => {
   return (
     <>
-      <div>
         <img src={headerImg} alt="header" className="object-cover w-auto" />
         <div className="flex flex-col px-4 py-10 md:bg-white md:shadow-lg md:p-10 md:w-11/13 md:mx-auto md:-translate-y-10 md:rounded  lg:shadow-none lg:absolute lg:top-48 lg:left-14 lg:bg-transparent lg:w-fit xl:top-52">
           <h2 className="text-xl font-semibold lg:text-2xl xl:text-3xl">Microsoft 365</h2>
@@ -25,7 +24,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };

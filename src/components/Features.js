@@ -35,6 +35,8 @@ const Features = () => {
       linkText: "Learn more",
     },
   ];
+
+  
   return (
     <div className="w-11/13 mx-auto lg:w-10/13">
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:my-20 lg:grid-cols-4">
