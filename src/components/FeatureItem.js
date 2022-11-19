@@ -6,7 +6,7 @@ const FeatureItem = (props) => {
     <>
       <div className="flex flex-col cursor-pointer">
         <img src={img} alt="FeatureImg" className="w-full" />
-        <h1 className="text-xl font-semibold py-3 lin">{title}</h1>
+        <h1 className="text-xl font-semibold py-3">{title}</h1>
         <p className="">{description}</p>
         <div className="py-4">
           <span className=" text-[#3468BC] cursor-pointer text-md hover:mr-1  font-semibold hover:underline  ">
