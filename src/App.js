@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import Download from "./components/Download";
 import Business from "./components/Business";
 import Social from "./components/Social";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Download />
       <Business />
       <Social />
+      <Footer />
     </>
   );
 };
