@@ -17,12 +17,48 @@ const Navbar = () => {
           />
         </div>
         <div className="flex justify-between items-center space-x-7 md:order-1">
-          <img className="w-28 cursor-pointer" src={logoImg} alt="logo" />
+          <img
+            className="w-28 cursor-pointer active:p-2 active:border-dashed active:border-2 active:border-black"
+            src={logoImg}
+            alt="logo"
+          />
           <ul className="md:flex justify-between items-center bg-[#F2F2F2] inset-0 -translate-x-96 inline-block absolute w-fit md:space-x-5 md:translate-x-0  md:w-auto md:bg-white md:static text-sm">
-            <li className="cursor-pointer">Microsoft 360</li>
-            <li className="cursor-pointer">Office</li>
-            <li className="cursor-pointer">Windows</li>
-            <li className="cursor-pointer">Support</li>
+            <li className="cursor-pointer  active:p-2 active:border-dashed active:border-2 active:border-black">
+              <a
+                href="https://www.microsoft.com/en/microsoft-365?rtc=1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Microsoft 360
+              </a>
+            </li>
+            <li className="cursor-pointer active:p-2 active:border-dashed active:border-2 active:border-black">
+              <a
+                href="https://www.microsoft.com/en/microsoft-365/microsoft-office?rtc=1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Office
+              </a>
+            </li>
+            <li className="cursor-pointer active:p-2 active:border-dashed active:border-2 active:border-black">
+              <a
+                href="https://www.microsoft.com/en-us/windows/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Windows
+              </a>
+            </li>
+            <li className="cursor-pointer active:p-2 active:border-dashed active:border-2 active:border-black">
+              <a
+                href="https://support.microsoft.com/en-US"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Support
+              </a>
+            </li>
           </ul>
         </div>
 
